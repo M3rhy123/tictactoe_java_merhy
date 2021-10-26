@@ -22,7 +22,7 @@ public class Main {
         nameX = sc.next();
         System.out.println("Type player 2 name:");
         nameY = sc.next();
-        System.out.println("How many clicks is looser doing");
+        System.out.println("How many push-ups is looser doing");
         penalty = sc.nextInt();
         BannerTictactoe();
         int start = sc.nextInt();

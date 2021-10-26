@@ -18,7 +18,7 @@ public class RoundY {
                 if (board[2][0] == x) {
                     System.out.println("DONT CHEAT");
                     System.out.println(nameX+" is winner");
-                    System.out.println(nameY+" lost, do " + penalty);
+                    System.out.println(nameY+" lost, do " + penalty +"push-ups");
                     System.exit(0);
                 } else {
                     board[2][0] = "O";
@@ -28,7 +28,7 @@ public class RoundY {
                 if (board[2][1] == x) {
                     System.out.println("DONT CHEAT");
                     System.out.println(nameX+" is winner");
-                    System.out.println(nameY+" lost, do " + penalty);
+                    System.out.println(nameY+" lost, do " + penalty +"push-ups");
                     System.exit(0);
                 } else {
                     board[2][1] = "O";
@@ -38,7 +38,7 @@ public class RoundY {
                 if (board[2][2] == x) {
                     System.out.println("DONT CHEAT");
                     System.out.println(nameX+" is winner");
-                    System.out.println(nameY+" lost, do " + penalty);
+                    System.out.println(nameY+" lost, do " + penalty +"push-ups");
                     System.exit(0);
                 } else {
                     board[2][2] = "O";
@@ -48,7 +48,7 @@ public class RoundY {
                 if (board[1][0] == x) {
                     System.out.println("DONT CHEAT");
                     System.out.println(nameX+" is winner");
-                    System.out.println(nameY+" lost, do " + penalty);
+                    System.out.println(nameY+" lost, do " + penalty +"push-ups");
                     System.exit(0);
                 } else {
                     board[1][0] = "O";
@@ -58,7 +58,7 @@ public class RoundY {
                 if (board[1][1] == x) {
                     System.out.println("DONT CHEAT");
                     System.out.println(nameX+" is winner");
-                    System.out.println(nameY+" lost, do " + penalty);
+                    System.out.println(nameY+" lost, do " + penalty +"push-ups");
                     System.exit(0);
                 } else {
                     board[1][1] = "O";
@@ -68,7 +68,7 @@ public class RoundY {
                 if (board[1][2] == x) {
                     System.out.println("DONT CHEAT");
                     System.out.println(nameX+" is winner");
-                    System.out.println(nameY+" lost, do " + penalty);
+                    System.out.println(nameY+" lost, do " + penalty +"push-ups");
                     System.exit(0);
                 } else {
                     board[1][2] = "O";
@@ -78,7 +78,7 @@ public class RoundY {
                 if (board[0][0] == x) {
                     System.out.println("DONT CHEAT");
                     System.out.println(nameX+" is winner");
-                    System.out.println(nameY+" lost, do " + penalty);
+                    System.out.println(nameY+" lost, do " + penalty +"push-ups");
                     System.exit(0);
                 } else {
                     board[0][0] = "O";
@@ -88,7 +88,7 @@ public class RoundY {
                 if (board[0][1] == x) {
                     System.out.println("DONT CHEAT");
                     System.out.println(nameX+" is winner");
-                    System.out.println(nameY+" lost, do " + penalty);
+                    System.out.println(nameY+" lost, do " + penalty +"push-ups");
                     System.exit(0);
                 } else {
                     board[0][1] = "O";
@@ -98,7 +98,7 @@ public class RoundY {
                 if (board[0][2] == x) {
                     System.out.println("DONT CHEAT!");
                     System.out.println(nameX+" is winner");
-                    System.out.println(nameY+" lost, do " + penalty);
+                    System.out.println(nameY+" lost, do " + penalty +"push-ups");
                     System.exit(0);
                 } else {
                     board[0][2] = "O";

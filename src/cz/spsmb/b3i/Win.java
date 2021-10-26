@@ -19,7 +19,7 @@ public class Win {
                 (board[0][2] == x && board[1][1] == x && board[2][0] == x)) {
             printBoard();
             System.out.println(nameX+" wins, congratulations");
-            System.out.println(nameY+" lost, do " + penalty);
+            System.out.println(nameY+" lost, do " + penalty +"push-ups");
             System.out.println("Thanks for playing");
             System.exit(0);
 
@@ -34,7 +34,7 @@ public class Win {
                 (board[0][2] == y && board[1][1] == y && board[2][0] == y)) {
             printBoard();
             System.out.println(nameY+" wins, congratulations");
-            System.out.println(nameX+" lost, do" + penalty);
+            System.out.println(nameX+" lost, do" + penalty +"push-ups");
             System.out.println("Thanks for playing");
             System.exit(0);
 
